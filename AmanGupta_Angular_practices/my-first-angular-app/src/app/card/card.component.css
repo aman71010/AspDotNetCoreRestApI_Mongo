@@ -1,0 +1,38 @@
+.card-container{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 400px;
+    padding-top: 60px;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: var(--VeryDarkBlue);
+    border-radius: 100%;
+    position: absolute;
+    top: -40px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img{
+    width: 40px;
+    height: 40px;
+}
+
+.horizontal-rule{
+    width: 60%;
+    height: 15px;
+    background-color: var(--Cyan);
+    position: relative;
+    bottom: 250px;
+    z-index: -4;
+    margin: 0 auto;
+}

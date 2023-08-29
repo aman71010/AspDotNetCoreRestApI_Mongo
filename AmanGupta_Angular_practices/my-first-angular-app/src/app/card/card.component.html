@@ -1,0 +1,12 @@
+<div class="card-container">
+    <div [ngClass]="{card: true}" *ngFor="let feature of features; let i=index" [ngStyle]="{position: 'relative', top: getTop(i)}">
+        <div class="circle">
+            <img src={{feature.imgSrc}} alt={{feature.imgAlt}}>
+        </div>
+        <div class="card-body">
+            <h4 [ngStyle]="{fontWeight: 700}">{{ feature.title }}</h4>
+            <p [ngStyle]="{fontWeight: 500, color: 'hsl(257, 7%, 63%)'}">{{ feature.description }}</p>
+        </div>
+    </div>
+</div>
+<div class="horizontal-rule"></div>

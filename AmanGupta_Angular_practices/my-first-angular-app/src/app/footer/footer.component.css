@@ -1,0 +1,30 @@
+
+.copyright{
+    margin-bottom: 0;
+  }
+  
+  .fa-brands{
+    padding-right: 5px;
+  }
+  
+  .fa-github{
+    color: #191A19;
+  }
+  
+  .fa-linkedin{
+    color: #5584AC;
+  }
+  
+  .fa-instagram{
+    color: #FF2442;
+  }
+  
+  .footer{
+    background: #0C356A;
+    color: white;
+    /* position: fixed; */
+    width: 100%;
+    /* bottom: 0; */
+    text-align: center;
+  }
+  
