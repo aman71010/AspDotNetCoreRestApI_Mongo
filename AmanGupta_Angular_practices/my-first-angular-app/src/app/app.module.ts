@@ -9,6 +9,7 @@ import { IntroComponent } from './intro/intro.component';
 import { LinkHolderComponent } from './link-holder/link-holder.component';
 import { CardComponent } from './card/card.component';
 import { CardsContainerComponent } from './cards-container/cards-container.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CardsContainerComponent } from './cards-container/cards-container.compo
     IntroComponent,
     LinkHolderComponent,
     CardComponent,
-    CardsContainerComponent
+    CardsContainerComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule
