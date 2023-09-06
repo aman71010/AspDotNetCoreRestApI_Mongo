@@ -9,5 +9,8 @@ namespace Keepnote.Models
         It should autogenerate the database based upon the model class in your application
          */
 
+        public DbSet<Note> Notes { get; set; }
+        public KeepNoteContext(DbContextOptions options): base(options) { }
+
     }
 }
