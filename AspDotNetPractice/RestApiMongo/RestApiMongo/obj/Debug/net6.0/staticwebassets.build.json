@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rKcWP66Yq2j0R42RrPoT6cf6uriPUGIX5rOmk8Qjouk=",
+  "Source": "RestApiMongo",
+  "BasePath": "_content/RestApiMongo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
